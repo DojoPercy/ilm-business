@@ -69,7 +69,7 @@ const Navbar = () => {
             alt="Illuminate Africa"
             width={120}
             height={40}
-            className="h-10 w-auto"
+            className="h-auto w-32"
             priority
           />
         </Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
               {link.dropdown ? (
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <button className="flex items-center text-sm font-medium text-gray-800 hover:text-amber-600 transition-colors">
+                    <button className={`flex items-center text-sm font-medium ${isScrolled ? "text-gray-800" : "text-white"} hover:text-amber-600 transition-colors`}>
                       {link.title}
                       <ChevronDown className="ml-1 h-4 w-4" />
                     </button>
@@ -99,7 +99,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   href={link.href}
-                  className="text-sm font-medium text-gray-800 hover:text-amber-600 transition-colors"
+                  className={` items-center text-sm font-medium ${isScrolled ? "text-gray-800" : "text-white"} hover:text-amber-600 transition-colors`}
                 >
                   {link.title}
                 </Link>
