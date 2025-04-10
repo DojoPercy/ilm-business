@@ -69,7 +69,7 @@ const Navbar = () => {
             alt="Illuminate Africa"
             width={120}
             height={40}
-            className="h-auto w-32"
+            className="h-auto w-10 scale-[2.5]"
             priority
           />
         </Link>
