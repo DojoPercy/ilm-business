@@ -115,7 +115,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="h-6 w-6 text-amber-600 mr-4 flex-shrink-0 mt-1" />
+                  <MapPin className="h-6 w-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
                     <p className="text-gray-700">
@@ -127,11 +127,11 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <Phone className="h-6 w-6 text-amber-600 mr-4 flex-shrink-0 mt-1" />
+                  <Phone className="h-6 w-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-gray-700">
-                      <a href="tel:+233551562590" className="hover:text-amber-600">
+                      <a href="tel:+233551562590" className="hover:text-red-600">
                         +233 55 156 2590
                       </a>
                     </p>
@@ -139,11 +139,11 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <Mail className="h-6 w-6 text-amber-600 mr-4 flex-shrink-0 mt-1" />
+                  <Mail className="h-6 w-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <p className="text-gray-700">
-                      <a href="mailto:info@illuminateafrica.com" className="hover:text-amber-600">
+                      <a href="mailto:info@illuminateafrica.com" className="hover:text-red-600">
                         info@illuminateafrica.com
                       </a>
                     </p>
@@ -151,7 +151,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <Clock className="h-6 w-6 text-amber-600 mr-4 flex-shrink-0 mt-1" />
+                  <Clock className="h-6 w-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Business Hours</h3>
                     <p className="text-gray-700">
@@ -168,25 +168,25 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div>
                     <p className="font-semibold">For Upanuzi Accelerator:</p>
-                    <a href="mailto:accelerator@illuminateafrica.com" className="text-amber-600 hover:underline">
+                    <a href="mailto:accelerator@illuminateafrica.com" className="text-red-600 hover:underline">
                       accelerator@illuminateafrica.com
                     </a>
                   </div>
                   <div>
                     <p className="font-semibold">For Nikela Fund:</p>
-                    <a href="mailto:fund@illuminateafrica.com" className="text-amber-600 hover:underline">
+                    <a href="mailto:fund@illuminateafrica.com" className="text-red-600 hover:underline">
                       fund@illuminateafrica.com
                     </a>
                   </div>
                   <div>
                     <p className="font-semibold">For Business Consulting:</p>
-                    <a href="mailto:consulting@illuminateafrica.com" className="text-amber-600 hover:underline">
+                    <a href="mailto:consulting@illuminateafrica.com" className="text-red-600 hover:underline">
                       consulting@illuminateafrica.com
                     </a>
                   </div>
                   <div>
                     <p className="font-semibold">For Press Inquiries:</p>
-                    <a href="mailto:press@illuminateafrica.com" className="text-amber-600 hover:underline">
+                    <a href="mailto:press@illuminateafrica.com" className="text-red-600 hover:underline">
                       press@illuminateafrica.com
                     </a>
                   </div>

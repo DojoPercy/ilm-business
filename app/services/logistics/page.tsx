@@ -66,8 +66,8 @@ export default function LogisticsPage() {
             <AnimatedSection animation="slide-up" delay={100}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Truck className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Truck className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -78,11 +78,11 @@ export default function LogisticsPage() {
                   </p>
                   <ul className="space-y-2 mt-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>End-to-end supply chain mapping and analysis</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Process optimization and cost reduction</span>
                     </li>
                   </ul>
@@ -93,8 +93,8 @@ export default function LogisticsPage() {
             <AnimatedSection animation="slide-up" delay={200}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Package className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Package className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -105,11 +105,11 @@ export default function LogisticsPage() {
                   </p>
                   <ul className="space-y-2 mt-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Warehouse location strategy and management</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Distribution network design and optimization</span>
                     </li>
                   </ul>
@@ -120,8 +120,8 @@ export default function LogisticsPage() {
             <AnimatedSection animation="slide-up" delay={300}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Globe className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Globe className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -132,11 +132,11 @@ export default function LogisticsPage() {
                   </p>
                   <ul className="space-y-2 mt-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Customs documentation and compliance</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Cross-border transportation management</span>
                     </li>
                   </ul>
@@ -147,8 +147,8 @@ export default function LogisticsPage() {
             <AnimatedSection animation="slide-up" delay={400}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <BarChart3 className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <BarChart3 className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -159,11 +159,11 @@ export default function LogisticsPage() {
                   </p>
                   <ul className="space-y-2 mt-3">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Supply chain visibility solutions</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Performance metrics and analytics</span>
                     </li>
                   </ul>
@@ -194,13 +194,13 @@ export default function LogisticsPage() {
                     Africa, reducing costs by 25% and improving delivery times by 40%.
                   </p>
                   <div className="flex flex-wrap gap-4 text-sm">
-                    <div className="bg-amber-100 px-3 py-1 rounded-full">
+                    <div className="bg-red-100 px-3 py-1 rounded-full">
                       <span className="font-semibold">25%</span> Cost Reduction
                     </div>
-                    <div className="bg-amber-100 px-3 py-1 rounded-full">
+                    <div className="bg-red-100 px-3 py-1 rounded-full">
                       <span className="font-semibold">40%</span> Faster Delivery
                     </div>
-                    <div className="bg-amber-100 px-3 py-1 rounded-full">
+                    <div className="bg-red-100 px-3 py-1 rounded-full">
                       <span className="font-semibold">5</span> Countries
                     </div>
                   </div>
@@ -222,8 +222,8 @@ export default function LogisticsPage() {
             <div className="grid md:grid-cols-3 gap-8">
               <AnimatedSection animation="slide-up" delay={100}>
                 <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-2xl font-bold text-amber-600">1</span>
+                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span className="text-2xl font-bold text-red-600">1</span>
                   </div>
                   <h3 className="text-xl font-bold mb-4">Assess</h3>
                   <p className="text-gray-700">
@@ -235,8 +235,8 @@ export default function LogisticsPage() {
 
               <AnimatedSection animation="slide-up" delay={200}>
                 <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-2xl font-bold text-amber-600">2</span>
+                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span className="text-2xl font-bold text-red-600">2</span>
                   </div>
                   <h3 className="text-xl font-bold mb-4">Design</h3>
                   <p className="text-gray-700">
@@ -248,8 +248,8 @@ export default function LogisticsPage() {
 
               <AnimatedSection animation="slide-up" delay={300}>
                 <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <span className="text-2xl font-bold text-amber-600">3</span>
+                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span className="text-2xl font-bold text-red-600">3</span>
                   </div>
                   <h3 className="text-xl font-bold mb-4">Implement & Optimize</h3>
                   <p className="text-gray-700">
@@ -264,7 +264,7 @@ export default function LogisticsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-amber-500 text-black">
+      <section className="py-16 md:py-24 bg-red-500 text-black">
         <div className="container mx-auto px-4 text-center">
           <AnimatedSection animation="fade-in">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Optimize Your Logistics Operations?</h2>

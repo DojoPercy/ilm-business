@@ -72,15 +72,15 @@ export default function BusinessDevelopmentPage() {
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Market assessment and opportunity identification</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Competitive landscape analysis</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Entry mode selection and planning</span>
                   </li>
                 </ul>
@@ -96,15 +96,15 @@ export default function BusinessDevelopmentPage() {
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Revenue model assessment and enhancement</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Cost structure optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Growth strategy development</span>
                   </li>
                 </ul>
@@ -120,15 +120,15 @@ export default function BusinessDevelopmentPage() {
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Operational efficiency improvements</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Organizational structure optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Process reengineering</span>
                   </li>
                 </ul>
@@ -144,15 +144,15 @@ export default function BusinessDevelopmentPage() {
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Trade compliance and regulatory guidance</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Supply chain optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Market access strategies</span>
                   </li>
                 </ul>
@@ -168,15 +168,15 @@ export default function BusinessDevelopmentPage() {
                 </p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Talent needs assessment</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Recruitment strategy development</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Onboarding and retention planning</span>
                   </li>
                 </ul>
@@ -202,8 +202,8 @@ export default function BusinessDevelopmentPage() {
                   delay={100}
                   className="flex flex-col items-center text-center md:w-1/4"
                 >
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">1</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">1</span>
                   </div>
                   <h3 className="font-bold mb-2">Discover</h3>
                   <p className="text-sm text-gray-600">
@@ -211,43 +211,43 @@ export default function BusinessDevelopmentPage() {
                   </p>
                 </AnimatedSection>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <AnimatedSection
                   animation="slide-up"
                   delay={200}
                   className="flex flex-col items-center text-center md:w-1/4 mt-8 md:mt-0"
                 >
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">2</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">2</span>
                   </div>
                   <h3 className="font-bold mb-2">Design</h3>
                   <p className="text-sm text-gray-600">Development of tailored strategies and action plans</p>
                 </AnimatedSection>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <AnimatedSection
                   animation="slide-up"
                   delay={300}
                   className="flex flex-col items-center text-center md:w-1/4 mt-8 md:mt-0"
                 >
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">3</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">3</span>
                   </div>
                   <h3 className="font-bold mb-2">Implement</h3>
                   <p className="text-sm text-gray-600">Execution support and guidance throughout implementation</p>
                 </AnimatedSection>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <AnimatedSection
                   animation="slide-up"
                   delay={400}
                   className="flex flex-col items-center text-center md:w-1/4 mt-8 md:mt-0"
                 >
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">4</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">4</span>
                   </div>
                   <h3 className="font-bold mb-2">Optimize</h3>
                   <p className="text-sm text-gray-600">Continuous monitoring, evaluation, and refinement</p>
@@ -259,7 +259,7 @@ export default function BusinessDevelopmentPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-amber-500 text-black">
+      <section className="py-16 md:py-24 bg-red-500 text-black">
         <div className="container mx-auto px-4 text-center">
           <AnimatedSection animation="fade-in">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Accelerate Your Business Growth?</h2>

@@ -57,8 +57,8 @@ export default function NikelaFundPage() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Card className="border-none shadow-lg">
               <CardContent className="p-6">
-                <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-amber-600" />
+                <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                  <Users className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Open to All Investors</h3>
                 <p className="text-gray-600 mb-4">
@@ -67,11 +67,11 @@ export default function NikelaFundPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Minimum investment of $10,000</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Transparent reporting</span>
                   </li>
                 </ul>
@@ -80,8 +80,8 @@ export default function NikelaFundPage() {
 
             <Card className="border-none shadow-lg">
               <CardContent className="p-6">
-                <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                  <TrendingUp className="h-6 w-6 text-amber-600" />
+                <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                  <TrendingUp className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">High Growth Focus</h3>
                 <p className="text-gray-600 mb-4">
@@ -90,11 +90,11 @@ export default function NikelaFundPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Target IRR of 20-25%</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>5-7 year investment horizon</span>
                   </li>
                 </ul>
@@ -103,8 +103,8 @@ export default function NikelaFundPage() {
 
             <Card className="border-none shadow-lg">
               <CardContent className="p-6">
-                <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                  <Globe className="h-6 w-6 text-amber-600" />
+                <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                  <Globe className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Impact Financing Window</h3>
                 <p className="text-gray-600 mb-4">
@@ -113,11 +113,11 @@ export default function NikelaFundPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Measurable impact metrics</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Aligned with SDGs</span>
                   </li>
                 </ul>
@@ -126,8 +126,8 @@ export default function NikelaFundPage() {
 
             <Card className="border-none shadow-lg md:col-start-2">
               <CardContent className="p-6">
-                <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                  <BarChart3 className="h-6 w-6 text-amber-600" />
+                <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                  <BarChart3 className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Strategic Guidance</h3>
                 <p className="text-gray-600 mb-4">
@@ -136,11 +136,11 @@ export default function NikelaFundPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Hands-on board involvement</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Access to global partners</span>
                   </li>
                 </ul>
@@ -157,19 +157,19 @@ export default function NikelaFundPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
             <div className="bg-gray-800 p-6 rounded-lg text-center">
-              <h3 className="text-3xl font-bold text-amber-500 mb-2">$5M+</h3>
+              <h3 className="text-3xl font-bold text-red-500 mb-2">$5M+</h3>
               <p className="text-gray-300">Capital Deployed</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg text-center">
-              <h3 className="text-3xl font-bold text-amber-500 mb-2">20+</h3>
+              <h3 className="text-3xl font-bold text-red-500 mb-2">20+</h3>
               <p className="text-gray-300">Businesses Funded</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg text-center">
-              <h3 className="text-3xl font-bold text-amber-500 mb-2">500+</h3>
+              <h3 className="text-3xl font-bold text-red-500 mb-2">500+</h3>
               <p className="text-gray-300">Jobs Created</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg text-center">
-              <h3 className="text-3xl font-bold text-amber-500 mb-2">12+</h3>
+              <h3 className="text-3xl font-bold text-red-500 mb-2">12+</h3>
               <p className="text-gray-300">Countries</p>
             </div>
           </div>
@@ -201,48 +201,48 @@ export default function NikelaFundPage() {
               {/* Process steps */}
               <div className="flex flex-col md:flex-row justify-between items-start mb-12">
                 <div className="flex flex-col items-center text-center md:w-1/6">
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">1</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">1</span>
                   </div>
                   <h3 className="font-bold mb-2">Screening</h3>
                   <p className="text-sm text-gray-600">Initial assessment of business potential</p>
                 </div>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <div className="flex flex-col items-center text-center md:w-1/6 mt-8 md:mt-0">
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">2</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">2</span>
                   </div>
                   <h3 className="font-bold mb-2">Due Diligence</h3>
                   <p className="text-sm text-gray-600">Comprehensive business evaluation</p>
                 </div>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <div className="flex flex-col items-center text-center md:w-1/6 mt-8 md:mt-0">
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">3</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">3</span>
                   </div>
                   <h3 className="font-bold mb-2">Investment</h3>
                   <p className="text-sm text-gray-600">Capital deployment and terms</p>
                 </div>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <div className="flex flex-col items-center text-center md:w-1/6 mt-8 md:mt-0">
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">4</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">4</span>
                   </div>
                   <h3 className="font-bold mb-2">Support</h3>
                   <p className="text-sm text-gray-600">Strategic guidance and resources</p>
                 </div>
 
-                <div className="hidden md:block w-full h-0.5 bg-amber-200 flex-grow mt-8"></div>
+                <div className="hidden md:block w-full h-0.5 bg-red-200 flex-grow mt-8"></div>
 
                 <div className="flex flex-col items-center text-center md:w-1/6 mt-8 md:mt-0">
-                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <span className="text-xl font-bold text-amber-600">5</span>
+                  <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <span className="text-xl font-bold text-red-600">5</span>
                   </div>
                   <h3 className="font-bold mb-2">Exit</h3>
                   <p className="text-sm text-gray-600">Value realization and returns</p>
@@ -254,35 +254,35 @@ export default function NikelaFundPage() {
               <h3 className="text-xl font-bold mb-4">Investment Criteria</h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold">Stage:</span> Post-revenue businesses with proven traction and clear
                     path to profitability
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold">Sectors:</span> Technology, Agriculture, Healthcare, Renewable
                     Energy, Financial Services, Education
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold">Geography:</span> Businesses operating in Africa, with preference
                     for those with regional expansion potential
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold">Team:</span> Strong management team with relevant experience and
                     demonstrated execution capability
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold">Investment Size:</span> $100,000 - $500,000 initial investment with
                     potential for follow-on funding
@@ -532,19 +532,19 @@ export default function NikelaFundPage() {
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Access to vetted, high-potential African businesses</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Professional fund management with local expertise</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Transparent reporting and active portfolio management</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Opportunity to participate in follow-on rounds</span>
                 </li>
               </ul>
@@ -561,19 +561,19 @@ export default function NikelaFundPage() {
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Investment ranging from $100,000 to $500,000</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Strategic guidance and hands-on support</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Access to our extensive network of partners</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-amber-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
                   <span>Support for future fundraising rounds</span>
                 </li>
               </ul>
@@ -633,7 +633,7 @@ export default function NikelaFundPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-amber-500 text-black">
+      <section className="py-16 md:py-24 bg-red-500 text-black">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Invest in Africa's Future?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

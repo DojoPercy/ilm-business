@@ -69,8 +69,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-up" delay={100}>
               <Card className="border-none shadow-lg">
                 <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <Rocket className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <Rocket className="h-6 w-6 text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Early Stage</h3>
                   <p className="text-gray-600 mb-4">
@@ -79,15 +79,15 @@ export default function UpanuziPage() {
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>$50,000 investment</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>6-month program</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Product-market fit focus</span>
                     </li>
                   </ul>
@@ -98,8 +98,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-up" delay={200}>
               <Card className="border-none shadow-lg">
                 <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <Award className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <Award className="h-6 w-6 text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Growth Stage</h3>
                   <p className="text-gray-600 mb-4">
@@ -108,15 +108,15 @@ export default function UpanuziPage() {
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>$100,000 investment</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>9-month program</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Scaling & expansion focus</span>
                     </li>
                   </ul>
@@ -127,8 +127,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-up" delay={300}>
               <Card className="border-none shadow-lg">
                 <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center mb-4">
-                    <Lightbulb className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                    <Lightbulb className="h-6 w-6 text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Innovation Track</h3>
                   <p className="text-gray-600 mb-4">
@@ -137,15 +137,15 @@ export default function UpanuziPage() {
                   </p>
                   <ul className="space-y-2 mb-4">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>$75,000 investment</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>8-month program</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-600 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
                       <span>Impact & innovation focus</span>
                     </li>
                   </ul>
@@ -175,8 +175,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-left" delay={100}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Award className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Award className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -192,8 +192,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-right" delay={200}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Users className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Users className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -209,8 +209,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-left" delay={300}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Rocket className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Rocket className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -226,8 +226,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-right" delay={400}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Lightbulb className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Lightbulb className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -243,8 +243,8 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-left" delay={500}>
               <div className="flex">
                 <div className="mr-6">
-                  <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Clock className="h-6 w-6 text-amber-600" />
+                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                    <Clock className="h-6 w-6 text-red-600" />
                   </div>
                 </div>
                 <div>
@@ -270,7 +270,7 @@ export default function UpanuziPage() {
           <div className="max-w-5xl mx-auto">
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1 bg-amber-200 transform md:translate-x-0 translate-x-4"></div>
+              <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1 bg-red-200 transform md:translate-x-0 translate-x-4"></div>
 
               {/* Step 1 */}
               <AnimatedSection animation="slide-in-left" delay={100}>
@@ -283,7 +283,7 @@ export default function UpanuziPage() {
                         and growth plans.
                       </p>
                     </div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -296,7 +296,7 @@ export default function UpanuziPage() {
                 <div className="relative mb-12 md:mb-24 pl-12 md:pl-0">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12"></div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12">
@@ -321,7 +321,7 @@ export default function UpanuziPage() {
                         committee.
                       </p>
                     </div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -334,7 +334,7 @@ export default function UpanuziPage() {
                 <div className="relative pl-12 md:pl-0">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12"></div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12">
@@ -384,7 +384,7 @@ export default function UpanuziPage() {
                     A precision agriculture startup that increased farmer yields by 40% and expanded to three countries
                     after participating in our program.
                   </p>
-                  <blockquote className="italic text-gray-700 border-l-4 border-amber-500 pl-4 mb-4">
+                  <blockquote className="italic text-gray-700 border-l-4 border-red-500 pl-4 mb-4">
                     "The Upanuzi Accelerator provided us with not just capital, but the strategic guidance and
                     connections we needed to scale across borders."
                   </blockquote>
@@ -409,7 +409,7 @@ export default function UpanuziPage() {
                     A healthcare logistics platform that now serves over 200 medical facilities and raised $2M in Series
                     A funding after our accelerator.
                   </p>
-                  <blockquote className="italic text-gray-700 border-l-4 border-amber-500 pl-4 mb-4">
+                  <blockquote className="italic text-gray-700 border-l-4 border-red-500 pl-4 mb-4">
                     "Upanuzi helped us refine our business model and connected us with investors who understood our
                     vision for healthcare in Africa."
                   </blockquote>
@@ -509,7 +509,7 @@ export default function UpanuziPage() {
                   />
                 </div>
                 <h3 className="font-bold text-lg">Katherine Kellein</h3>
-                <p className="text-amber-600">Program Director</p>
+                <p className="text-red-600">Program Director</p>
               </div>
             </AnimatedSection>
 
@@ -525,7 +525,7 @@ export default function UpanuziPage() {
                   />
                 </div>
                 <h3 className="font-bold text-lg">Michael Addo</h3>
-                <p className="text-amber-600">Investment Lead</p>
+                <p className="text-red-600">Investment Lead</p>
               </div>
             </AnimatedSection>
 
@@ -541,7 +541,7 @@ export default function UpanuziPage() {
                   />
                 </div>
                 <h3 className="font-bold text-lg">Fatima Diallo</h3>
-                <p className="text-amber-600">Mentor Coordinator</p>
+                <p className="text-red-600">Mentor Coordinator</p>
               </div>
             </AnimatedSection>
 
@@ -557,7 +557,7 @@ export default function UpanuziPage() {
                   />
                 </div>
                 <h3 className="font-bold text-lg">Daniel Osei</h3>
-                <p className="text-amber-600">Operations Manager</p>
+                <p className="text-red-600">Operations Manager</p>
               </div>
             </AnimatedSection>
           </div>
@@ -578,7 +578,7 @@ export default function UpanuziPage() {
           </AnimatedSection>
           <AnimatedSection animation="slide-up" delay={400}>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-black" asChild>
+              <Button size="lg" className="bg-red-500 hover:bg-red-600 text-black" asChild>
                 <Link href="/upanuzi/apply">Apply Now</Link>
               </Button>
               <Button

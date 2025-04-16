@@ -74,7 +74,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             <AnimatedSection animation="zoom-in" delay={100}>
               <div className="bg-white p-6 rounded-lg text-center shadow-sm">
-                <h3 className="text-3xl font-bold text-amber-600 mb-2">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">
                   <AnimatedCounter end={10} suffix="M+" />
                 </h3>
                 <p className="text-gray-700">Capital Deployed</p>
@@ -82,7 +82,7 @@ export default function AboutPage() {
             </AnimatedSection>
             <AnimatedSection animation="zoom-in" delay={200}>
               <div className="bg-white p-6 rounded-lg text-center shadow-sm">
-                <h3 className="text-3xl font-bold text-amber-600 mb-2">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">
                   <AnimatedCounter end={50} suffix="+" />
                 </h3>
                 <p className="text-gray-700">Businesses Supported</p>
@@ -90,7 +90,7 @@ export default function AboutPage() {
             </AnimatedSection>
             <AnimatedSection animation="zoom-in" delay={300}>
               <div className="bg-white p-6 rounded-lg text-center shadow-sm">
-                <h3 className="text-3xl font-bold text-amber-600 mb-2">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">
                   <AnimatedCounter end={1000} suffix="+" />
                 </h3>
                 <p className="text-gray-700">Jobs Created</p>
@@ -98,7 +98,7 @@ export default function AboutPage() {
             </AnimatedSection>
             <AnimatedSection animation="zoom-in" delay={400}>
               <div className="bg-white p-6 rounded-lg text-center shadow-sm">
-                <h3 className="text-3xl font-bold text-amber-600 mb-2">
+                <h3 className="text-3xl font-bold text-red-600 mb-2">
                   <AnimatedCounter end={15} suffix="+" />
                 </h3>
                 <p className="text-gray-700">Countries</p>
@@ -112,7 +112,7 @@ export default function AboutPage() {
             </AnimatedSection>
             <div className="relative">
               {/* Timeline */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-amber-200"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-red-200"></div>
 
               <div className="grid grid-cols-1 gap-12">
                 <AnimatedSection animation="slide-in-left" delay={100}>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                         <h4 className="font-bold text-xl mb-2">2018</h4>
                         <p className="text-gray-700">Illuminate Africa founded with a focus on business consulting</p>
                       </div>
-                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                         <div className="w-4 h-4 rounded-full bg-white"></div>
                       </div>
                       <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
                   <div className="relative pl-12 md:pl-0">
                     <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                       <div className="md:text-right md:pr-12"></div>
-                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                         <div className="w-4 h-4 rounded-full bg-white"></div>
                       </div>
                       <div className="mt-4 md:mt-0 md:pl-12">
@@ -154,7 +154,7 @@ export default function AboutPage() {
                         <h4 className="font-bold text-xl mb-2">2021</h4>
                         <p className="text-gray-700">Launched the Upanuzi Accelerator program</p>
                       </div>
-                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                         <div className="w-4 h-4 rounded-full bg-white"></div>
                       </div>
                       <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -166,7 +166,7 @@ export default function AboutPage() {
                   <div className="relative pl-12 md:pl-0">
                     <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                       <div className="md:text-right md:pr-12"></div>
-                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                         <div className="w-4 h-4 rounded-full bg-white"></div>
                       </div>
                       <div className="mt-4 md:mt-0 md:pl-12">
@@ -184,7 +184,7 @@ export default function AboutPage() {
                         <h4 className="font-bold text-xl mb-2">2023</h4>
                         <p className="text-gray-700">Expanded operations to 15+ countries across Africa</p>
                       </div>
-                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
+                      <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
                         <div className="w-4 h-4 rounded-full bg-white"></div>
                       </div>
                       <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -207,8 +207,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <AnimatedSection animation="slide-up" delay={100}>
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-2xl font-bold text-amber-600">1</span>
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-red-600">1</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Understand</h3>
                 <p className="text-gray-700">
@@ -220,8 +220,8 @@ export default function AboutPage() {
 
             <AnimatedSection animation="slide-up" delay={200}>
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-2xl font-bold text-amber-600">2</span>
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-red-600">2</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Innovate</h3>
                 <p className="text-gray-700">
@@ -233,8 +233,8 @@ export default function AboutPage() {
 
             <AnimatedSection animation="slide-up" delay={300}>
               <div className="bg-gray-50 p-8 rounded-lg text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-2xl font-bold text-amber-600">3</span>
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-red-600">3</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Implement</h3>
                 <p className="text-gray-700">
@@ -279,7 +279,7 @@ export default function AboutPage() {
                     />
                   </div>
                   <h4 className="font-bold text-lg">Maurice Cashinco</h4>
-                  <p className="text-amber-600">Executive Director</p>
+                  <p className="text-red-600">Executive Director</p>
                 </div>
               </AnimatedSection>
 
@@ -295,7 +295,7 @@ export default function AboutPage() {
                     />
                   </div>
                   <h4 className="font-bold text-lg">Emmanuel Gyimah</h4>
-                  <p className="text-amber-600">Director</p>
+                  <p className="text-red-600">Director</p>
                 </div>
               </AnimatedSection>
 
@@ -311,7 +311,7 @@ export default function AboutPage() {
                     />
                   </div>
                   <h4 className="font-bold text-lg">Katherine Kellein</h4>
-                  <p className="text-amber-600">Program Director</p>
+                  <p className="text-red-600">Program Director</p>
                 </div>
               </AnimatedSection>
 
@@ -327,7 +327,7 @@ export default function AboutPage() {
                     />
                   </div>
                   <h4 className="font-bold text-lg">Chelsea Kowovi</h4>
-                  <p className="text-amber-600">Tech Lead</p>
+                  <p className="text-red-600">Tech Lead</p>
                 </div>
               </AnimatedSection>
             </div>
@@ -455,7 +455,7 @@ export default function AboutPage() {
             </p>
           </AnimatedSection>
           <AnimatedSection animation="slide-up" delay={400}>
-            <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-black" asChild>
+            <Button size="lg" className="bg-red-500 hover:bg-red-600 text-black" asChild>
               <Link href="/careers">View Open Positions</Link>
             </Button>
           </AnimatedSection>

@@ -53,6 +53,12 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Add brand red color
+        "brand-red": {
+          DEFAULT: "hsl(var(--brand-red))",
+          light: "#f05d5d",
+          dark: "#d03b3b",
+        },
         amber: {
           50: "#fffbeb",
           100: "#fef3c7",
@@ -66,6 +72,19 @@ const config = {
           900: "#78350f",
           950: "#451a03",
         },
+        red: {
+          50:  "#fff5f5",
+          100: "#ffe3e3",
+          200: "#ffc1c1",
+          300: "#ff9e9e",
+          400: "#ff7a7a",
+          500: "#f75454",
+          600: "#e84545",
+          700: "#c33737",
+          800: "#a72e2e",
+          900: "#821f1f",
+          950: "#4d0f0f",
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
