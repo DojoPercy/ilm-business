@@ -83,7 +83,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-brand-red flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">63, Olympic Street - Kokomlemle, Accra, Ghana</span>
+                <span className="text-gray-300">Spintex Road, Asanfena Crescent</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-brand-red flex-shrink-0" />
@@ -104,7 +104,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
             <p className="text-gray-300 mb-4">Subscribe to our newsletter for the latest updates and insights.</p>
             <form className="space-y-2">
-              <Input type="email" placeholder="Your email address" className="bg-gray-800 border-gray-700 text-white" />
+              <Input type="email" placeholder="Your email address" className="bg-gray-800 border-gray-700 text-primary" />
               <Button type="submit" className="w-full bg-brand-red hover:bg-brand-red-dark">
                 Subscribe
               </Button>

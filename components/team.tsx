@@ -37,9 +37,10 @@ interface TeamMemberProps {
   linkedin?: string
   twitter?: string
   email?: string
+  center?: boolean
 }
 
-const TeamMember = ({ name, role, image, index, linkedin, twitter, email }: TeamMemberProps) => {
+const TeamMember = ({ name, role, image, index, linkedin, twitter, email, center }: TeamMemberProps) => {
   const [isHovered, setIsHovered] = useState(false)
 
   return (
@@ -54,7 +55,7 @@ const TeamMember = ({ name, role, image, index, linkedin, twitter, email }: Team
       <div className="absolute inset-0 bg-gradient-to-r from-brand-red/20 to-brand-red/5 rounded-2xl rotate-3 transform translate-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
       <div className="relative bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1 border border-gray-100">
-        <div className="h-48 relative overflow-hidden">
+        <div className=" h-60 relative overflow-hidden">
           <div
             className={cn(
               "absolute inset-0 bg-gradient-to-b from-brand-red/20 to-transparent opacity-0 transition-opacity duration-300 z-10",
@@ -65,7 +66,9 @@ const TeamMember = ({ name, role, image, index, linkedin, twitter, email }: Team
             src={image || "/placeholder.svg?height=200&width=200"}
             alt={name}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className={`object-cover   transition-transform duration-500 group-hover:scale-105`}
+            style={{ objectPosition: center ? "center" : "top" }}
+
           />
         </div>
 
@@ -124,34 +127,38 @@ export default function TeamSection() {
     {
       name: "Maurice Cashinco",
       role: "Executive Director, Co-founder",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "maurice_1.png",
       linkedin: "#",
       twitter: "#",
       email: "maurice@example.com",
+      center: false,
     },
     {
       name: "Emmanuel Gyimah",
       role: "Director, Co-founder",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/gyimah.png",
       linkedin: "#",
       twitter: "#",
       email: "emmanuel@example.com",
+      center: false,
     },
     {
       name: "Katherine Kellein",
       role: "Program Director",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/kelle.png",
       linkedin: "#",
       twitter: "#",
       email: "katherine@example.com",
+      center: true,
     },
     {
       name: "Chelsea Kowovi",
       role: "Technical Lead",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/chelseapro.png",
       linkedin: "#",
       twitter: "#",
       email: "chelsea@example.com",
+      center: true,
     },
   ]
 
@@ -186,6 +193,7 @@ export default function TeamSection() {
               twitter={member.twitter}
               email={member.email}
               index={index}
+              center= {member.center}
             />
           ))}
         </div>
