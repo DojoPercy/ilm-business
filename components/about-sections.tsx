@@ -1,37 +1,47 @@
-"use client"
+"use client";
 
-import type React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { useInView } from "react-intersection-observer"
-import { ArrowRight, Quote } from "lucide-react"
+import type React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { ArrowRight, Quote } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 interface SectionHeadingProps {
-  children: React.ReactNode
-  align?: "left" | "center" | "right"
-  className?: string
+  children: React.ReactNode;
+  align?: "left" | "center" | "right";
+  className?: string;
 }
 
-const SectionHeading = ({ children, align = "left", className }: SectionHeadingProps) => {
+const SectionHeading = ({
+  children,
+  align = "left",
+  className,
+}: SectionHeadingProps) => {
   return (
     <div className={cn("mb-6", align === "center" && "text-center", className)}>
-      <h2 className="text-3xl md:text-4xl font-bold tracking-tight">{children}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+        {children}
+      </h2>
       <div
-        className={cn("h-1 bg-brand-red w-16 mt-4", align === "center" && "mx-auto", align === "right" && "ml-auto")}
+        className={cn(
+          "h-1 bg-brand-red w-16 mt-4",
+          align === "center" && "mx-auto",
+          align === "right" && "ml-auto"
+        )}
       />
     </div>
-  )
-}
+  );
+};
 
 export default function AboutSection() {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
-  })
+  });
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -41,7 +51,7 @@ export default function AboutSection() {
         staggerChildren: 0.2,
       },
     },
-  }
+  };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -53,7 +63,7 @@ export default function AboutSection() {
         ease: "easeOut",
       },
     },
-  }
+  };
 
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.95 },
@@ -65,10 +75,13 @@ export default function AboutSection() {
         ease: "easeOut",
       },
     },
-  }
+  };
 
   return (
-    <section ref={ref} className="py-20 md:py-32 bg-gradient-to-b from-white to-gray-50 overflow-hidden relative">
+    <section
+      ref={ref}
+      className="py-20 md:py-32 bg-gradient-to-b from-white to-gray-50 overflow-hidden relative"
+    >
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-brand-red/5 rounded-full -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-red/5 rounded-full translate-x-1/3 translate-y-1/3" />
@@ -85,10 +98,19 @@ export default function AboutSection() {
             <SectionHeading align="center">Who We Are</SectionHeading>
           </motion.div>
 
-          <motion.p variants={itemVariants} className="text-lg text-gray-700 leading-relaxed">
-            Illuminate Africa (ILM) is a leading African brand in logistics, trade, and business support services. With
-            a deep understanding of the African business landscape and strong networks with government and private
-            sectors, we serve as a one-stop shop for businesses looking to thrive in Africa and beyond.
+          <motion.p
+            variants={itemVariants}
+            className="text-lg text-gray-700 leading-relaxed"
+          >
+            At Illuminate Africa, we are committed to accelerating the growth of
+            Africa’s most promising businesses. Our focus is on companies that
+            have already launched and are ready to scale within the dynamic tech
+            ecosystem. We champion innovation, foster strategic growth, and
+            advocate for gender equality in business. By empowering
+            entrepreneurs and startups, we help expand their product offerings,
+            grow their user base, and unlock diverse funding opportunities.
+            Illuminate Africa is more than a growth partner — we are a catalyst
+            for transformative impact across the continent.
           </motion.p>
 
           <motion.div variants={itemVariants} className="mt-10">
@@ -123,37 +145,52 @@ export default function AboutSection() {
               <div className="relative pl-6 border-l-2 border-brand-red/30">
                 <Quote className="absolute -left-4 -top-1 text-brand-red/20 h-8 w-8" />
                 <p className="text-gray-700 italic">
-                  Propelling Africa's Businesses towards accelerated growth, fostering innovation and advocating for
-                  gender equality.
+             We empower high-potential African businesses to scale faster, grow stronger, and access capital by advancing innovation and inclusive growth within the tech ecosystem.
                 </p>
               </div>
 
               <p className="text-gray-700">
-                At Illuminate Africa, we empower businesses to soar to new heights. We dedicate ourselves to working
-                with businesses that have already taken flight and are now poised for exponential growth, along with
-                discovering promising start-ups in the Tech Ecosystem.
+                At Illuminate Africa, we empower businesses to soar to new
+                heights. We dedicate ourselves to working with businesses that
+                have already taken flight and are now poised for exponential
+                growth, along with discovering promising start-ups in the Tech
+                Ecosystem.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Innovation</span>
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Growth</span>
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Equality</span>
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">Tech Ecosystem</span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">
+                  Innovation
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">
+                  Growth
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">
+                  Equality
+                </span>
+                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">
+                  Tech Ecosystem
+                </span>
               </div>
             </motion.div>
 
-            <motion.div variants={imageVariants} className="relative h-80 md:h-96 rounded-xl overflow-hidden group">
+            <motion.div
+              variants={imageVariants}
+              className="relative h-80 md:h-96 rounded-xl overflow-hidden group"
+            >
               <Image
-                src="/images/business-growth.jpeg"
+                src="/growth.jpg"
                 alt="Business Growth"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 transform transition-transform duration-500 translate-y-2 group-hover:translate-y-0">
-                <h4 className="text-xl font-bold text-white mb-2">Empowering Growth</h4>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Empowering Growth
+                </h4>
                 <p className="text-white/80 text-sm max-w-xs">
-                  Accelerating business success across Africa through strategic partnerships and innovative solutions
+                  Accelerating business success across Africa through strategic
+                  partnerships and innovative solutions
                 </p>
               </div>
             </motion.div>
@@ -161,5 +198,5 @@ export default function AboutSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

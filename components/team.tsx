@@ -209,7 +209,7 @@ export default function TeamSection() {
             className="group border-brand-red text-brand-red hover:bg-brand-red hover:text-white transition-all duration-300"
             asChild
           >
-            <Link href="/team">
+            <Link href="/about#team">
               View Full Team
               <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>

@@ -62,11 +62,12 @@ const Navbar = () => {
         { title: "Upanuzi Accelerator", href: "/upanuzi" },
         { title: "Nikela Fund", href: "/nikela-fund" },
         { title: "CSR Advisory", href: "/services/csr" },
+        { title: "R&D in Ai and Renewable Energy", href: "/services/research" },
       ],
     },
     {
       title: "Insights",
-      href: "/insights",
+      href: "#",
     },
     {
       title: "Our Team",
