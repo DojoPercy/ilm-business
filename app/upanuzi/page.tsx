@@ -11,16 +11,34 @@ export default function UpanuziPage() {
   return (
     <>
       {/* Header Banner */}
-      <section className="bg-black text-white pt-32 pb-16">
-        <div className="container mx-auto px-4">
-          <AnimatedSection animation="fade-in">
-            <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Upanuzi Accelerator</h1>
-              <p className="text-xl text-gray-300">Transforming African Businesses</p>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+      
+      <section className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-32 pb-20 overflow-hidden">
+                    {/* Background elements */}
+                    <div className="absolute inset-0 overflow-hidden">
+                      <div className="absolute top-0 left-1/4 w-96 h-96 bg-brand-red/10 rounded-full blur-3xl"></div>
+                      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-brand-red/5 rounded-full blur-3xl"></div>
+                    </div>
+            
+                    {/* Subtle pattern */}
+                    <div className="absolute inset-0 opacity-10">
+                      <div className="absolute inset-0 bg-[radial-gradient(circle,_#ffffff_1px,_transparent_1px)] bg-[length:20px_20px]"></div>
+                    </div>
+            
+                    <div className="container mx-auto px-4 relative">
+                      <AnimatedSection animation="fade-in">
+                        <div className="inline-flex items-center px-4 py-2 bg-brand-red/20 text-brand-red rounded-full text-sm font-medium mb-6">
+                          Upanuzi Accelerator
+                        </div>
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
+                          Upanuzi Accelerator
+                          <span className="block h-1 w-24 bg-brand-red mt-6"></span>
+                        </h1>
+                        <p className="text-xl md:text-2xl text-gray-300 max-w-3xl">
+                          Propelling Africa's Businesses Forward Through Innovation, Investment, and Strategic Support
+                        </p>
+                      </AnimatedSection>
+                    </div>
+                  </section>
 
       {/* Overview Section */}
       <section className="py-16 md:py-24 bg-white">
@@ -46,7 +64,7 @@ export default function UpanuziPage() {
             <AnimatedSection animation="slide-in-right" delay={200}>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/accelerate.jpg"
                   alt="Upanuzi Accelerator Workspace"
                   width={600}
                   height={400}
@@ -59,111 +77,7 @@ export default function UpanuziPage() {
       </section>
 
       {/* Program Tracks */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <AnimatedSection>
-            <h2 className="text-3xl font-bold mb-12 text-center section-heading">Program Tracks</h2>
-          </AnimatedSection>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <AnimatedSection animation="slide-up" delay={100}>
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
-                    <Rocket className="h-6 w-6 text-red-600" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Early Stage</h3>
-                  <p className="text-gray-600 mb-4">
-                    For startups with a validated product and initial traction looking to refine their business model
-                    and prepare for scale.
-                  </p>
-                  <ul className="space-y-2 mb-4">
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>$50,000 investment</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>6-month program</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>Product-market fit focus</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-up" delay={200}>
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
-                    <Award className="h-6 w-6 text-red-600" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Growth Stage</h3>
-                  <p className="text-gray-600 mb-4">
-                    For established businesses with proven traction seeking to expand into new markets or scale
-                    operations significantly.
-                  </p>
-                  <ul className="space-y-2 mb-4">
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>$100,000 investment</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>9-month program</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>Scaling & expansion focus</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-up" delay={300}>
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
-                    <Lightbulb className="h-6 w-6 text-red-600" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Innovation Track</h3>
-                  <p className="text-gray-600 mb-4">
-                    For businesses developing innovative solutions to critical challenges in healthcare, agriculture,
-                    energy, or education.
-                  </p>
-                  <ul className="space-y-2 mb-4">
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>$75,000 investment</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>8-month program</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>Impact & innovation focus</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </AnimatedSection>
-          </div>
-
-          <AnimatedSection animation="fade-in" delay={400}>
-            <div className="text-center mt-12">
-              <Button variant="outline" asChild>
-                <Link href="/upanuzi/brochure">Download Program Brochure</Link>
-              </Button>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
+      
       {/* What We Offer */}
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
@@ -260,7 +174,7 @@ export default function UpanuziPage() {
         </div>
       </section>
 
-      {/* Application Process */}
+    {/* Application Process */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <AnimatedSection>
@@ -269,12 +183,12 @@ export default function UpanuziPage() {
 
           <div className="max-w-5xl mx-auto">
             <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1 bg-red-200 transform md:translate-x-0 translate-x-4"></div>
+              {/* Timeline line - hidden on mobile, visible on desktop */}
+              <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-amber-200 transform -translate-x-1/2"></div>
 
               {/* Step 1 */}
               <AnimatedSection animation="slide-in-left" delay={100}>
-                <div className="relative mb-12 md:mb-24 pl-12 md:pl-0">
+                <div className="relative mb-12 md:mb-24">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12">
                       <h3 className="text-xl font-bold mb-2">1. Online Application</h3>
@@ -283,7 +197,8 @@ export default function UpanuziPage() {
                         and growth plans.
                       </p>
                     </div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
+                    {/* Mobile dot - positioned at start of content */}
+                    <div className="absolute -left-4 top-0 md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -293,10 +208,11 @@ export default function UpanuziPage() {
 
               {/* Step 2 */}
               <AnimatedSection animation="slide-in-right" delay={200}>
-                <div className="relative mb-12 md:mb-24 pl-12 md:pl-0">
+                <div className="relative mb-12 md:mb-24">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12"></div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
+                    {/* Mobile dot - positioned at start of content */}
+                    <div className="absolute -left-4 top-0 md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12">
@@ -312,7 +228,7 @@ export default function UpanuziPage() {
 
               {/* Step 3 */}
               <AnimatedSection animation="slide-in-left" delay={300}>
-                <div className="relative mb-12 md:mb-24 pl-12 md:pl-0">
+                <div className="relative mb-12 md:mb-24">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12">
                       <h3 className="text-xl font-bold mb-2">3. Interview & Pitch</h3>
@@ -321,7 +237,8 @@ export default function UpanuziPage() {
                         committee.
                       </p>
                     </div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
+                    {/* Mobile dot - positioned at start of content */}
+                    <div className="absolute -left-4 top-0 md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12"></div>
@@ -331,10 +248,11 @@ export default function UpanuziPage() {
 
               {/* Step 4 */}
               <AnimatedSection animation="slide-in-right" delay={400}>
-                <div className="relative pl-12 md:pl-0">
+                <div className="relative">
                   <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                     <div className="md:text-right md:pr-12"></div>
-                    <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 -translate-x-4 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
+                    {/* Mobile dot - positioned at start of content */}
+                    <div className="absolute -left-4 top-0 md:left-1/2 md:top-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full bg-white"></div>
                     </div>
                     <div className="mt-4 md:mt-0 md:pl-12">
@@ -361,73 +279,7 @@ export default function UpanuziPage() {
       </section>
 
       {/* Success Stories */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <AnimatedSection>
-            <h2 className="text-3xl font-bold mb-12 text-center section-heading">Success Stories</h2>
-          </AnimatedSection>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <AnimatedSection animation="slide-in-left" delay={200}>
-              <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
-                <div className="relative h-60">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Success Story"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">AgriTech Solutions</h3>
-                  <p className="text-gray-600 mb-4">
-                    A precision agriculture startup that increased farmer yields by 40% and expanded to three countries
-                    after participating in our program.
-                  </p>
-                  <blockquote className="italic text-gray-700 border-l-4 border-red-500 pl-4 mb-4">
-                    "The Upanuzi Accelerator provided us with not just capital, but the strategic guidance and
-                    connections we needed to scale across borders."
-                  </blockquote>
-                  <p className="font-semibold">- Sarah Osei, Founder & CEO</p>
-                </div>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-in-right" delay={300}>
-              <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
-                <div className="relative h-60">
-                  <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Success Story"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">MediConnect</h3>
-                  <p className="text-gray-600 mb-4">
-                    A healthcare logistics platform that now serves over 200 medical facilities and raised $2M in Series
-                    A funding after our accelerator.
-                  </p>
-                  <blockquote className="italic text-gray-700 border-l-4 border-red-500 pl-4 mb-4">
-                    "Upanuzi helped us refine our business model and connected us with investors who understood our
-                    vision for healthcare in Africa."
-                  </blockquote>
-                  <p className="font-semibold">- David Mensah, Co-founder</p>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-
-          <AnimatedSection animation="fade-in" delay={400}>
-            <div className="text-center mt-12">
-              <Button variant="outline" asChild>
-                <Link href="/upanuzi/success-stories">See All Success Stories</Link>
-              </Button>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+     
 
       {/* FAQs */}
       <section className="py-16 md:py-24 bg-gray-50">
@@ -490,79 +342,93 @@ export default function UpanuziPage() {
       </section>
 
       {/* Team */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <AnimatedSection>
-            <h2 className="text-3xl font-bold mb-12 text-center section-heading">Meet the Team</h2>
-          </AnimatedSection>
-
-          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            <AnimatedSection animation="slide-up" delay={100}>
-              <div className="text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Team Member"
-                    width={128}
-                    height={128}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="font-bold text-lg">Katherine Kellein</h3>
-                <p className="text-red-600">Program Director</p>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-up" delay={200}>
-              <div className="text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Team Member"
-                    width={128}
-                    height={128}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="font-bold text-lg">Michael Addo</h3>
-                <p className="text-red-600">Investment Lead</p>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-up" delay={300}>
-              <div className="text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Team Member"
-                    width={128}
-                    height={128}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="font-bold text-lg">Fatima Diallo</h3>
-                <p className="text-red-600">Mentor Coordinator</p>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection animation="slide-up" delay={400}>
-              <div className="text-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Team Member"
-                    width={128}
-                    height={128}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="font-bold text-lg">Daniel Osei</h3>
-                <p className="text-red-600">Operations Manager</p>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
+        <section className="py-16 md:py-24 bg-white">
+             <div className="container mx-auto px-4">
+               <h2 className="text-3xl font-bold mb-12 text-center section-heading">Meet Our Team</h2>
+     
+               <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                 <div className="text-center">
+                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                     <Image
+                       src="/gyimah.png"
+                       alt="Emmanuel Gyimah"
+                       width={128}
+                       height={128}
+                       className="object-cover"
+                     />
+                   </div>
+                   <h3 className="font-bold text-lg">Emmanuel Gyimah</h3>
+                   <p className="text-amber-600">Director, Cofounder</p>
+                 </div>
+     
+                 <div className="text-center">
+                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                     <Image
+                       src="/maurice.png"
+                       alt="Maurice Cashinco"
+                       width={128}
+                       height={128}
+                       className="object-cover object-top"
+                     />
+                   </div>
+                   <h3 className="font-bold text-lg">Maurice Cashinco</h3>
+                   <p className="text-amber-600">Executive Director, Cofounder</p>
+                 </div>
+     
+                 <div className="text-center">
+                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                     <Image
+                       src="/kelle.png"
+                       alt="Katherine Kellein"
+                       width={128}
+                       height={128}
+                       className="object-cover"
+                     />
+                   </div>
+                   <h3 className="font-bold text-lg">Katherine Kellein</h3>
+                   <p className="text-amber-600">Management</p>
+                 </div>
+     
+                 <div className="text-center">
+                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                     <Image
+                       src="/chelseapro.png"
+                       alt="Chelsea Kowovi"
+                       width={128}
+                       height={128}
+                       className="object-cover"
+                     />
+                   </div>
+                   <h3 className="font-bold text-lg">Chelsea Kowovi</h3>
+                   <p className="text-amber-600">Technical Lead</p>
+                 </div>
+     
+                 <div className="text-center">
+                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                     <Image
+                       src="/obed.png"
+                       alt="Obed Lamptey"
+                       width={128}
+                       height={128}
+                       className="object-cover"
+                     />
+                   </div>
+                   <h3 className="font-bold text-lg">Obed Lamptey</h3>
+                   <p className="text-amber-600">Creative Lead</p>
+                 </div>
+     
+                 
+     
+     
+               </div>
+     
+               <div className="text-center mt-12">
+                 <Button variant="outline" asChild>
+                   <Link href="/about#team">View Full Team</Link>
+                 </Button>
+               </div>
+             </div>
+           </section>
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-black text-white">

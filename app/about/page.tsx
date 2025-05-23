@@ -69,7 +69,7 @@ export default function AboutPage() {
                     </div>
                     <h3 className="font-bold text-xl mb-3">Our Vision</h3>
                     <p className="text-gray-700">
-                      To be a leading African brand in logistics, trade, and business support services.
+                    To propel Africa’s businesses toward accelerated growth by fostering innovation, supporting gender equality, and enabling economic transformation across the continent.
                     </p>
                   </div>
 
@@ -79,8 +79,7 @@ export default function AboutPage() {
                     </div>
                     <h3 className="font-bold text-xl mb-3">Our Mission</h3>
                     <p className="text-gray-700">
-                      Delivering innovative, timely, and cost-effective business solutions to clients in Africa and
-                      beyond.
+                     We empower high-potential African businesses to scale faster, grow stronger, and access capital by advancing innovation and inclusive growth within the tech ecosystem.
                     </p>
                   </div>
                 </div>
@@ -93,7 +92,7 @@ export default function AboutPage() {
                 <div className="relative rounded-xl overflow-hidden shadow-xl">
                   <div className="aspect-w-4 aspect-h-3 relative">
                     <Image
-                      src="/placeholder.svg?height=600&width=800"
+                      src="/about.jpg"
                       alt="Illuminate Africa Team"
                       width={800}
                       height={600}
@@ -200,8 +199,7 @@ export default function AboutPage() {
                         </div>
                         <h4 className="font-bold text-xl mb-3">Foundation</h4>
                         <p className="text-gray-700">
-                          Illuminate Africa founded with a focus on business consulting and advisory services for
-                          emerging African enterprises.
+                        Illuminate Africa was established with a mission to accelerate African businesses, focusing on business consulting and advisory services for high-potential enterprises.
                         </p>
                       </div>
                       <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-br from-brand-red to-brand-red/80 flex items-center justify-center shadow-lg z-10">
@@ -227,10 +225,9 @@ export default function AboutPage() {
                         <div className="inline-flex items-center px-3 py-1 bg-brand-red/10 text-brand-red rounded-full text-sm font-medium mb-2">
                           2020
                         </div>
-                        <h4 className="font-bold text-xl mb-3">Expansion</h4>
+                        <h4 className="font-bold text-xl mb-3">Strategic Growth</h4>
                         <p className="text-gray-700">
-                          Expanded services to include logistics management and trade facilitation, helping businesses
-                          navigate cross-border operations.
+                          Broadened its scope by identifying scalable startups and established businesses ready for growth in Africa’s tech ecosystem.
                         </p>
                       </div>
                     </div>
@@ -244,10 +241,9 @@ export default function AboutPage() {
                         <div className="inline-flex items-center px-3 py-1 bg-brand-red/10 text-brand-red rounded-full text-sm font-medium mb-2">
                           2021
                         </div>
-                        <h4 className="font-bold text-xl mb-3">Acceleration</h4>
+                        <h4 className="font-bold text-xl mb-3">Acceleration Launch</h4>
                         <p className="text-gray-700">
-                          Launched the Upanuzi Accelerator program to provide funding, mentorship, and resources to
-                          high-potential African startups.
+                        Introduced the Upanuzi Accelerator, offering tailored mentorship, funding, and networking opportunities to support business scaling.
                         </p>
                       </div>
                       <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-br from-brand-red to-brand-red/80 flex items-center justify-center shadow-lg z-10">
@@ -273,10 +269,9 @@ export default function AboutPage() {
                         <div className="inline-flex items-center px-3 py-1 bg-brand-red/10 text-brand-red rounded-full text-sm font-medium mb-2">
                           2022
                         </div>
-                        <h4 className="font-bold text-xl mb-3">Investment</h4>
+                        <h4 className="font-bold text-xl mb-3"> Investment Innovation</h4>
                         <p className="text-gray-700">
-                          Established the Nikela Fund in partnership with SBINC Capital to provide strategic investments
-                          to growth-stage African businesses.
+                         Launched the Nikela Fund in partnership with SBINC Capital to invest in high-growth, impact-driven businesses across the continent.
                         </p>
                       </div>
                     </div>
@@ -290,10 +285,9 @@ export default function AboutPage() {
                         <div className="inline-flex items-center px-3 py-1 bg-brand-red/10 text-brand-red rounded-full text-sm font-medium mb-2">
                           2023
                         </div>
-                        <h4 className="font-bold text-xl mb-3">Continental Growth</h4>
+                        <h4 className="font-bold text-xl mb-3">Ecosystem Expansion</h4>
                         <p className="text-gray-700">
-                          Expanded operations to 15+ countries across Africa, establishing a pan-African network of
-                          partners and clients.
+                          Strengthened partnerships and operational reach across multiple African countries through programs like the BOLT Accelerator and the develoPPP Ventures Ghana Pitch, empowering startups across diverse sectors.
                         </p>
                       </div>
                       <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-br from-brand-red to-brand-red/80 flex items-center justify-center shadow-lg z-10">
@@ -489,7 +483,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Team */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+      <section  id="team" className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0 bg-[radial-gradient(circle,_#E63946_1px,_transparent_1px)] bg-[length:30px_30px]"></div>
